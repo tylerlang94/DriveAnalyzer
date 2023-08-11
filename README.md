@@ -4,12 +4,13 @@ DriveAnalyzer is a tool designed to analyze and visualize driving data. It allow
 
 ## Features
 
-- Import driving data from different sources such as GPS trackers, OBD-II adapters, and more.
-- Clean and preprocess raw data to remove inconsistencies and errors.
-- Visualize driving routes, speeds, acceleration, and other metrics on interactive maps and charts.
-- Generate detailed reports summarizing driving sessions, patterns, and statistics.
-- Compare driving behavior over time or between different vehicles.
-- Export visualizations and reports in various formats for further analysis or sharing.
+-Pulling disk information from your hard drive
+-Adding the information to a CSV file
+-Generating detailed Windows Event logs
+
+## In The Works
+
+- Analyzing the CSV to predict when the drive will fill up using a trend analysis
 
 ## Getting Started
 
@@ -19,6 +20,7 @@ Before you begin, make sure you have the following installed:
 
 - Python 3.x
 - Required Python packages (specified in requirements.txt)
+- Currently only tested working on Windows due to the Event Logging. 
 
 ### Installation
 
