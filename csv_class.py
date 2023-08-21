@@ -1,6 +1,7 @@
 import csv
 import os
 
+
 class CSVWriter:
     def __init__(self, filename, fieldnames):
         self.filename = filename

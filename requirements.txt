@@ -1,3 +1,4 @@
 win32evt
 win32evtutil
 wmi
+pandas
